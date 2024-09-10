@@ -9,7 +9,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Focus-Offensive%20%26%20Defensive%20Security-red?style=for-the-badge" alt="Focus: Offensive & Defensive Security">
   <img src="https://img.shields.io/badge/Seeking-Cybersecurity%20Internship-blue?style=for-the-badge" alt="Seeking: Cybersecurity Internship">
-  <img src="https://img.shields.io/badge/Location-Tunisia-green?style=for-the-badge" alt="Location:Worldwide">
+  <img src="https://img.shields.io/badge/Location-Worldwide-green?style=for-the-badge" alt="Location:Worldwide">
 </p>
 
 ## 🚀 Mission Control
