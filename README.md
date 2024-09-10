@@ -50,7 +50,7 @@ graph TD
 
 ## 🏆 Cybersecurity Achievements
 <details>
-<summary>🛡️ Enrolled in a bug bounty research program</summary>
+<summary>🕵️‍♂️ Enrolled in a bug bounty research program</summary>
 <br>
 • Diving deep into web security, mastering tools like Burp Suite for effective vulnerability assessment and reporting<br>
 • Building a robust skill set in identifying, exploiting, and documenting security flaws through hands-on bug bounty practice.<br>
