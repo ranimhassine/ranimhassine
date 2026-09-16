@@ -16,9 +16,9 @@
 
 I'm a **Cybersecurity Consultant** specializing in **Microsoft Security & Microsoft 365** environments — identity security, endpoint protection, threat detection, security monitoring, and security automation. My work sits at the intersection of **security engineering and consulting**: designing, assessing, securing, and improving enterprise environments across the Microsoft security stack.
 
-Originally rooted in **electronics and communication engineering**, I built my foundation in networking and systems before specializing in cybersecurity — with a particular obsession for how identities, endpoints, apps, SaaS, and on-prem infrastructure hold together (or don't) in hybrid environments.
+Originally rooted in **electronics and communication engineering**, I built my foundation in networking and systems before specializing in cybersecurity , with a particular obsession for how identities, endpoints, apps, SaaS, and on-prem infrastructure hold together (or don't) in hybrid environments.
 
-At **Consultim IT**, I work on cybersecurity assessments, M365 security projects, identity & endpoint security initiatives, security monitoring, automation, technical workshops, and presales — turning "secure this environment" into a concrete, deployable architecture.
+At **Consultim IT**, I work on cybersecurity assessments, M365 security projects, identity & endpoint security initiatives, security monitoring, automation, technical workshops, and presales ; turning "secure this environment" into a concrete, deployable architecture.
 
 ## 🧭 What I Work On
 
