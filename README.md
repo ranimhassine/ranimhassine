@@ -1,140 +1,182 @@
-<h1 align="center">
-  <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="30px"> Ranim Hassine <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="30px">
-</h1>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2EA2E7&center=true&vCenter=true&width=560&lines=Cybersecurity+Consultant;Microsoft+Security+%26+M365+Specialist;Identity+%2B+Endpoint+Security;XDR+%2F+SIEM+%2F+SOAR+Enthusiast;PowerShell+%2B+Automation+Builder" alt="Typing SVG" />
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D4,100:2EA2E7&height=220&section=header&text=Ranim%20Hassine&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Cybersecurity%20Consultant%20%7C%20Microsoft%20Security%20%26%20M365&descAlignY=55&descSize=20" width="100%"/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-Microsoft%20Security%20Ecosystem-blue?style=for-the-badge" alt="Focus: Microsoft Security">
-  <img src="https://img.shields.io/badge/Role-Cybersecurity%20Consultant-red?style=for-the-badge" alt="Role: Cybersecurity Consultant">
-  <img src="https://img.shields.io/badge/Currently-Consultim%20IT-2EA2E7?style=for-the-badge" alt="Currently at Consultim IT">
-</p>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&pause=1200&color=2EA2E7&center=true&vCenter=true&width=650&lines=Securing+Hybrid+Microsoft+Environments;Identity+%2B+Endpoint+%2B+XDR+%2B+Automation;Defender+XDR+%C2%B7+Sentinel+%C2%B7+Entra+ID+%C2%B7+Intune;Turning+Security+Risk+into+Business+Language;Building+Reusable+Security+Tooling+with+PowerShell" alt="Typing SVG" />
 
-## 👋 About Me
+<br>
 
-I'm a **Cybersecurity Consultant** specializing in **Microsoft Security & Microsoft 365** environments — identity security, endpoint protection, threat detection, security monitoring, and security automation. My work sits at the intersection of **security engineering and consulting**: designing, assessing, securing, and improving enterprise environments across the Microsoft security stack.
+<img src="https://img.shields.io/badge/Cybersecurity%20Consultant-Consultim%20IT-2EA2E7?style=for-the-badge&logo=microsoft&logoColor=white" alt="Current role">
+<img src="https://img.shields.io/badge/Specialty-Microsoft%20Security%20Ecosystem-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Specialty">
+<img src="https://img.shields.io/badge/Background-Electronics%20%26%20Comm%20Engineering-black?style=for-the-badge" alt="Background">
 
-Originally rooted in **electronics and communication engineering**, I built my foundation in networking and systems before specializing in cybersecurity , with a particular obsession for how identities, endpoints, apps, SaaS, and on-prem infrastructure hold together (or don't) in hybrid environments.
+<br>
 
-At **Consultim IT**, I work on cybersecurity assessments, M365 security projects, identity & endpoint security initiatives, security monitoring, automation, technical workshops, and presales ; turning "secure this environment" into a concrete, deployable architecture.
+<a href="mailto:ranimhassine@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://www.linkedin.com/in/ranimhassine"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://github.com/ranimhassine"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+<img src="https://komarev.com/ghpvc/?username=ranimhassine&color=2EA2E7&style=flat-square&label=Profile+Views" alt="Profile views">
 
-## 🧭 What I Work On
+</div>
+
+<br>
+
+## 🧩 `whoami`
+
+```yaml
+name:        Ranim Hassine
+role:        Cybersecurity Consultant
+speciality:  Microsoft Security & Microsoft 365
+core_focus:  [Identity Security, Endpoint Protection, XDR, SIEM/SOAR, Security Automation]
+stack:       [Defender XDR, MDE, MDI, MDO, MDCA, Sentinel, Entra ID, Intune, Purview, Azure, AD]
+background:  Electronics & Communication Engineering -> Cybersecurity
+mindset:     "Security tools aren't isolated products — they're one architecture."
+currently:   Assessments · M365 Security Projects · Identity & Endpoint Security · Presales
+```
+
+I work at the intersection of **security engineering and consulting** — assessing enterprise environments, closing configuration gaps, and translating security risk into architecture clients can actually act on. My focus is hybrid environments: where cloud identities, endpoints, SaaS, and on-prem AD all have to be secured *together*, not as separate checkboxes.
+
+<br>
+
+## 🗺️ How I Think About Microsoft Security
 
 ```mermaid
-graph TD
-    A[Microsoft Security Architecture] --> B[Identity Security]
-    A --> C[XDR / SIEM-SOAR]
-    A --> D[Endpoint & Cloud App Security]
-    A --> E[Automation & Tooling]
+flowchart TD
+    A(["🏢 Enterprise Environment"]) --> B["🔑 Identity"]
+    A --> C["💻 Endpoints"]
+    A --> D["☁️ Apps & Cloud"]
+    A --> E["✉️ Email & Data"]
 
-    B --> B1[Entra ID / Conditional Access / PIM]
-    B --> B2[Hybrid Identity & AD Security]
-    B --> B3[Privilege & Attack Path Analysis]
+    B --> F["Entra ID · Conditional Access<br/>PIM · Hybrid AD"]
+    C --> G["Defender for Endpoint<br/>Intune"]
+    D --> H["Defender for Cloud Apps<br/>Azure"]
+    E --> I["Defender for Office 365<br/>Purview"]
 
-    C --> C1[Defender XDR]
-    C --> C2[Microsoft Sentinel]
-    C --> C3[Detection, Investigation & Response]
+    F & G & H & I --> J{{"Microsoft Sentinel<br/>+ Defender XDR"}}
+    J --> K["🔍 Detection & Investigation"]
+    K --> L["⚡ Automated Response"]
+    L --> M["📈 Post-Incident Insight"]
+    M -.feedback.-> A
 
-    D --> D1[Defender for Endpoint]
-    D --> D2[Defender for Office 365]
-    D --> D3[Defender for Cloud Apps]
-
-    E --> E1[PowerShell + Microsoft Graph]
-    E --> E2[Security Reporting & Dashboards]
-    E --> E3[Assessment Frameworks]
+    style J fill:#0078D4,stroke:#2EA2E7,color:#fff
+    style A fill:#111,stroke:#2EA2E7,color:#fff
 ```
+
+<br>
 
 ## 🛡️ Microsoft Security Stack
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-Defender%20XDR-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Defender XDR">
-  <img src="https://img.shields.io/badge/-Defender%20for%20Endpoint-0078D4?style=for-the-badge&logo=windowsdefender&logoColor=white" alt="MDE">
-  <img src="https://img.shields.io/badge/-Defender%20for%20Identity-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="MDI">
-  <img src="https://img.shields.io/badge/-Defender%20for%20O365-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="MDO">
-  <img src="https://img.shields.io/badge/-Defender%20for%20Cloud%20Apps-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="MDCA">
-  <img src="https://img.shields.io/badge/-Microsoft%20Sentinel-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Sentinel">
-  <img src="https://img.shields.io/badge/-Microsoft%20Entra%20ID-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Entra ID">
-  <img src="https://img.shields.io/badge/-Intune-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Intune">
-  <img src="https://img.shields.io/badge/-Microsoft%20Purview-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Purview">
-  <img src="https://img.shields.io/badge/-Active%20Directory-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Active Directory">
+  <img src="https://img.shields.io/badge/-Defender%20XDR-0078D4?style=for-the-badge&logo=microsoft&logoColor=white">
+  <img src="https://img.shields.io/badge/-Defender%20for%20Endpoint-0078D4?style=for-the-badge&logo=windowsdefender&logoColor=white">
+  <img src="https://img.shields.io/badge/-Defender%20for%20Identity-0078D4?style=for-the-badge&logo=microsoft&logoColor=white">
+  <img src="https://img.shields.io/badge/-Defender%20for%20O365-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white">
+  <img src="https://img.shields.io/badge/-Defender%20for%20Cloud%20Apps-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white">
+  <br>
+  <img src="https://img.shields.io/badge/-Microsoft%20Sentinel-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white">
+  <img src="https://img.shields.io/badge/-Microsoft%20Entra%20ID-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white">
+  <img src="https://img.shields.io/badge/-Intune-0078D4?style=for-the-badge&logo=microsoft&logoColor=white">
+  <img src="https://img.shields.io/badge/-Microsoft%20Purview-0078D4?style=for-the-badge&logo=microsoft&logoColor=white">
+  <img src="https://img.shields.io/badge/-Active%20Directory-0078D4?style=for-the-badge&logo=windows&logoColor=white">
 </p>
 
-## 💻 Broader Toolkit
+## ⚙️ Broader Toolkit
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell">
-  <img src="https://img.shields.io/badge/-Microsoft%20Graph-737373?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft Graph">
-  <img src="https://img.shields.io/badge/-Azure-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure">
-  <img src="https://img.shields.io/badge/-Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white" alt="Splunk">
-  <img src="https://img.shields.io/badge/-Elastic-005571?style=for-the-badge&logo=elastic&logoColor=white" alt="Elastic">
-  <img src="https://img.shields.io/badge/-Security%20Onion-000000?style=for-the-badge&logo=security&logoColor=white" alt="Security Onion">
-  <img src="https://img.shields.io/badge/-Suricata-00205B?style=for-the-badge&logo=suricata&logoColor=white" alt="Suricata">
-  <img src="https://img.shields.io/badge/-pfSense-212121?style=for-the-badge&logo=pfsense&logoColor=white" alt="pfSense">
-  <img src="https://img.shields.io/badge/-Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana">
-  <img src="https://img.shields.io/badge/-Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white" alt="Proxmox">
+  <img src="https://skillicons.dev/icons?i=powershell,azure,py,bash,linux,git,splunk,grafana,prometheus,docker" />
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/-Microsoft%20Graph-737373?style=flat-square&logo=microsoft&logoColor=white">
+  <img src="https://img.shields.io/badge/-Elastic-005571?style=flat-square&logo=elastic&logoColor=white">
+  <img src="https://img.shields.io/badge/-Security%20Onion-000000?style=flat-square&logo=security&logoColor=white">
+  <img src="https://img.shields.io/badge/-Suricata%20%2F%20Snort-00205B?style=flat-square">
+  <img src="https://img.shields.io/badge/-pfSense-212121?style=flat-square&logo=pfsense&logoColor=white">
+  <img src="https://img.shields.io/badge/-Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white">
+</p>
+
+<br>
 
 ## 🎯 Focus Areas
 
-<details>
-<summary>🔑 Identity Security</summary>
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔑 Identity Security
+- Entra ID, Conditional Access, PIM, MFA, RBAC
+- Hybrid identity & Active Directory security
+- Excessive privilege, legacy auth, service principal & app-permission exposure
+- Mapping identity → resource attack paths
+
+</td>
+<td width="50%" valign="top">
+
+### 🕸️ XDR & SIEM/SOAR
+- Correlating endpoint, identity, email, cloud & network signals
+- Defender XDR + Sentinel integration
+- Full lifecycle: surface → telemetry → detection → response → analysis
+- Building attack simulation labs
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⚙️ Security Automation
+- PowerShell + Microsoft Graph tooling
+- M365 & Entra ID security reporting
+- AD & application identity assessments
+- Reusable checks across client environments
+
+</td>
+<td width="50%" valign="top">
+
+### 🤝 Consulting & Presales
+- Security posture assessments & gap analysis
+- Risk → business language translation
+- Technical workshops & proof-of-concepts
+- Client-facing architecture design
+
+</td>
+</tr>
+</table>
+
 <br>
 
-• Entra ID, Conditional Access, Privileged Identity Management, MFA, RBAC<br>
-• Hybrid identity and Active Directory security<br>
-• Analyzing excessive privileges, legacy auth, service principals & app permissions<br>
-• Mapping attack paths and identity → resource relationships
-</details>
+## 🧪 On My Bench
 
-<details>
-<summary>🕸️ XDR & SIEM/SOAR Integration</summary>
+```text
+[■■■■■■■■■□□] Defender XDR ↔ Sentinel correlation labs
+[■■■■■■■□□□□] Entra ID privilege & attack-path mapping tooling
+[■■■■■■□□□□□] PowerShell + Graph automated M365 security reports
+[■■■■■□□□□□□] Identity-relationship visualization dashboards
+```
+
 <br>
-
-• Correlating endpoint, identity, email, cloud app, and network signals in Defender XDR & Sentinel<br>
-• End-to-end lifecycle: attack surface → telemetry → detection → investigation → response → post-incident analysis<br>
-• Building attack scenarios and labs to demonstrate detection and containment
-</details>
-
-<details>
-<summary>⚙️ Security Automation & Tooling</summary>
-<br>
-
-• PowerShell + Microsoft Graph scripts for M365 & Entra ID assessments<br>
-• Active Directory security assessments and application identity analysis<br>
-• Turning repeatable security checks into reusable tooling and dashboards
-</details>
-
-<details>
-<summary>🤝 Consulting & Presales</summary>
-<br>
-
-• Security posture assessments and gap analysis<br>
-• Translating technical risk into business-relevant recommendations<br>
-• Technical workshops, proof-of-concepts, and client-facing solution design
-</details>
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ranimhassine&theme=dark" alt="ranimhassine's GitHub streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ranimhassine&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ranimhassine&theme=tokyonight&hide_border=true" height="165"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ranimhassine&layout=compact&theme=dark" alt="ranimhassine's top languages" />
-</p>
-
-## 🌐 Let's Connect
-
-<p align="center">
-  <a href="mailto:ranimhassine@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/ranimhassine"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/ranimhassine"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ranimhassine&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ranimhassine&theme=tokyo-night&hide_border=true" height="165"/>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ranimhassine&color=blue&style=flat-square&label=Profile+Views" alt="Profile views">
+  <img src="https://github-profile-trophy.vercel.app/?username=ranimhassine&theme=tokyonight&no-frame=true&row=1&column=6" />
 </p>
 
-<h3 align="center">🔐 Making Microsoft security environments measurable, defensible, and easier to manage — one architecture at a time.</h3>
+<br>
+
+<div align="center">
+
+### 🔐 Making Microsoft security environments measurable, defensible, and easier to manage — one architecture at a time.
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2EA2E7,100:0078D4&height=100&section=footer" width="100%"/>
+
+</div>
